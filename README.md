@@ -26,4 +26,4 @@ And then run `npm start`
 
 ## Special thanks
 
-To [@LuaxY] (https://github.com/LuaxY) for his work on [DofusLiveLogger](https://github.com/LuaxY/Dofus-Live-Logger)
+To [@LuaxY](https://github.com/LuaxY) for his work on [DofusLiveLogger](https://github.com/LuaxY/Dofus-Live-Logger)
