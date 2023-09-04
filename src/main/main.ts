@@ -134,6 +134,13 @@ const createWindow = async () => {
 
 const createDofusLoggerServer = () => {
   dofusLoggerServer = createServer(function (socket) {
+    socket.on('close', function () {
+      console.log('Dofus logger client disconnected');
+
+      dofusLogsBuffer = [];
+      lastDofusLogSentIndex = 0;
+    });
+
     socket.on('data', function (data) {
       const receivedAt = new Date();
 
